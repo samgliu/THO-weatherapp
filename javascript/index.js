@@ -58,7 +58,7 @@ function jsonToObj(resultData) {
 async function getWeather(loc) {
     let locat = loc;
     const response = await fetch(
-        "http://api.openweathermap.org/data/2.5/weather?q=" +
+        "https://api.openweathermap.org/data/2.5/weather?q=" +
             locat +
             "&APPID=504903876b494379f756e53fa8b8d2d2",
         { mode: "cors" }
